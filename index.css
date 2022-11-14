@@ -1,3 +1,6 @@
+html{
+    overflow: hidden;
+}
 body{
     height: 100vh;
     background-image: url(./download.jpeg);
@@ -16,5 +19,13 @@ h1{
     text-decoration: dotted underline;
 }
 #cake{
+    width: 100vw;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    width: 75vh;
 }
